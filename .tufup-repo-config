@@ -1,0 +1,38 @@
+{
+    "app_name": "TUFtest",
+    "app_version_attr": "tuftest.__version__",
+    "encrypted_keys": [
+        "root",
+        "targets",
+        "snapshot",
+        "timestamp"
+    ],
+    "expiration_days": {
+        "root": 1,
+        "snapshot": 1,
+        "targets": 1,
+        "timestamp": 1
+    },
+    "key_map": {
+        "root": [
+            "root"
+        ],
+        "snapshot": [
+            "snapshot"
+        ],
+        "targets": [
+            "targets"
+        ],
+        "timestamp": [
+            "timestamp"
+        ]
+    },
+    "keys_dir": "keys",
+    "repo_dir": "updates",
+    "thresholds": {
+        "root": 1,
+        "snapshot": 1,
+        "targets": 1,
+        "timestamp": 1
+    }
+}

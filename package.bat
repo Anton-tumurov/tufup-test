@@ -1,0 +1,1 @@
+pyinstaller --onefile main.py --name tuftest-1.0.0

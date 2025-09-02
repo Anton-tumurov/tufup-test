@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "19af4864143bf781dff92f80c6ed278c0752eee7889a4d59e0b476d853ef07a0",
+   "sig": "affc4d87dfdcb0f493e3f0ead6f5ab34729f773bf53efac9e2592dd078bd8d7bc871a22a1f53b7cc2d335b0faeae94312adec0bcab906cb9714811fbc7df1d0d"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2025-09-03T08:43:07Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "TUFtest-1.0.0.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "ea99a37fa37ba8816b77d7c8a217b6d6ff298ff90034a22dfd9fdd8b5f451e26"
+    },
+    "length": 7080832
+   }
+  },
+  "version": 2
+ }
+}
